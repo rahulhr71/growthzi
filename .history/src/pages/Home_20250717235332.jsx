@@ -26,9 +26,6 @@ export default function Home() {
     const handleForm = () => {
         setOpen(false)
         setBtnValue(btnText)
-        const dt={
-            "name":btnValue
-        }
         axios.post("http://localhost:3000/button",dt).then((r)=>{
             console.log(r);
             
