@@ -1,0 +1,95 @@
+import '../styles/Home.css';
+import background from '../assets/image.png'
+import { assets } from '../assets/assets';
+import Navbar from '../components/Navbar';
+import BookingForm from '../components/BookingForm';
+import RoomSection from '../components/RoomSection';
+import ServicesSection from '../components/ServicesSection';
+import ReviewSection from '../components/ReviewSection';
+import Team from '../components/Team';
+import Footer from '../components/Footer';
+import Editing from '../components/Editing';
+import { useState } from 'react';
+import { useText } from '../context/textContext';
+export default function Home() {
+    const [btnColor,setBtnColor]=useState(null)
+    const [url,setUrl]=useState(null)
+    const [style,setStyle]=useState(null)
+    const [size,setSize]=useState(null)
+    const [btnText,setBtnText]=useState(null)
+   const  handleForm=(e)=>{
+       console.log(btnColor);
+       console.log(url);
+       
+       
+       
+        
+   }
+    const [open, setOpen] = useState(false)
+    return (
+
+        <div className="hero-section">
+            <header className='my-section '>
+
+                <Navbar /><br /><br />
+                <h2 className="main-title poppins-light">best place to relax & enjoy</h2>
+                <h1 className='header-text forum-regular'>A Luxurious Way To <br />
+                    Enjoy Your Life</h1>
+                <div className='text-center'>
+                    <button className='btn' onClick={() => {
+                        setOpen(true),handleForm()
+                    }}>+ Add Button</button>
+                    {
+                        open && (
+                          <div className="pop">
+            <label htmlFor="url">Enter URL of button </label>
+            <input type="text" name="url" id="url" />
+            <br /><br />
+            <label htmlFor="style">Button style</label>
+            <select name="fill" id="fill">
+                <option value="fil">Fill</option>
+                <option value="border">Border</option>
+            </select>
+            <br /><br />
+            <label htmlFor="button-text">Button Text</label>
+            <input type="text" />
+            <br /><br />
+            <label htmlFor="color">Colour</label>
+            <input type="color" name="color" id="color" />
+            <br /><br />
+            <label htmlFor="button size">Button Size</label>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select><br /><br />
+            <button className='save-button'>Save Button</button>
+            <p>Cancel</p>
+        </div>
+                        )
+                    }
+                </div>
+                <div className='flex arrows'>
+                    <div className='rounded'><img src={assets.arrow} alt="" /></div>
+                    <div className='rounded2 rounded'><img src={assets.arrow} alt="" /></div>
+                </div>
+            </header>
+            <div className='margin-10'>
+                <BookingForm />
+            </div>
+            <RoomSection />
+            <ServicesSection />
+            <ReviewSection />
+            <Team />
+            <Footer />
+            {
+
+
+            }
+
+        </div>
+    );
+}
+
+      
+  
