@@ -1,0 +1,12 @@
+.popup{
+    width: 500px;
+    height: 500px;
+    top: 0 ;
+    background-color: green;
+    position:absolute;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.4;
+    align-self: center;
+
+}

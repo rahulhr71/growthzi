@@ -1,0 +1,19 @@
+.footer{
+    background-color: #2D2C2C;
+    height: 400px;
+    width: 100vw;
+}
+.top-div{
+
+width: 80vw;
+height: 60%;
+margin: 0 auto;
+background-color: green;
+display: flex;
+justify-content: space-between;
+}
+.innerDiv{
+    width: 30%;
+    font: 1em sans-serif;
+
+}

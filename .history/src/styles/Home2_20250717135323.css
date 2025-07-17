@@ -1,0 +1,39 @@
+.sorry{
+    text-align: end;
+    margin-right: 120px;
+    margin-top: -20px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 200;
+}
+.subheading{
+    font-size: 60px;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -30px;
+}
+._404{
+text-align: left;
+margin-top: 0;
+margin-left: 700px;
+margin-bottom: 0;
+margin-right: 0;
+font-size: 20em;
+position: relative;
+
+padding: 0;
+font-family: 'Forum';
+color: white;
+
+
+}
+.my-section2 {
+    background-image: url('../assets/Image.png');
+    width: 100vw;
+    height: 700px;
+    box-shadow:10px 1px 20px;
+}
+.discover-btn2{
+    margin-left: 300px;
+    background-color: aquamarine;
+}

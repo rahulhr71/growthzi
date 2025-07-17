@@ -1,0 +1,20 @@
+.popup {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+.left{
+    text-align: left;
+    margin-left: 10px;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap'); 
+.services {
+  width: 80vw;
+  margin: auto;
+  padding: 60px 40px;
+  font-family: 'Arial', sans-serif;
+  text-align: center    ;
+}
+
+.services-header {
+  
+  font-weight: bold;
+    
+  display: flex;
+ 
+  align-items: center;
+  
+}
+.tg{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    align-items: start;
+    text-align: start;
+
+}
+.tagline{
+color: #c89b63;
+  letter-spacing: 3px;
+  
+  font-weight: 200;
+  margin-bottom: -30px;
+}
+
+.services-header h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.tg >h2{
+ font-family: "Forum", serif;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  color: #aaa;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'poppins';
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.services-box {
+  min-height: 210px;
+}
+
+.services-box.light {
+  background: #e0e0e0;
+}
+
+.services-box.dark {
+  background-image: url('../assets/Image.png');
+  color: white;
+}
+
+.services-box.content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.icon {
+  font-size: 30px;
+  color: #c89b63;
+  margin-bottom: 10px;
+  margin-left: 10px ;
+}
+
+.services-box h3 {
+margin-left: 10px;
+  font-size: 20px;
+  margin-top: 0;
+ 
+}
+
+.services-box p {
+  font-size: 14px;
+  color: #bbb;
+  width: 100%;
+text-align: justify;
+
+  margin-bottom: 40px;
+}
+.discover-btn{
+  background-color: red;
+  margin-left: 200px;
+  font-size: 17px;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.discover {
+  background: none;
+  border: none;
+  color: #c89b63;
+  font-style: italic;
+  cursor: pointer;
+  padding: 0;
+  border-bottom: 1px solid #c89b63;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+}
+
+.arrow {
+  font-size: 18px;
+}

@@ -1,0 +1,26 @@
+.sorry{
+    text-align: end;
+    margin-right: 120px;
+    margin-top: -20px;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 200;
+}
+.subheading{
+    font-size: 60px;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -30px;
+}
+._404{
+text-align: left;
+margin: 0;
+font-size: 20em;
+position: relative;
+left: 700px;
+padding: 0;
+font-family: 'Forum';
+color: white;
+
+
+}

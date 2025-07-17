@@ -1,0 +1,9 @@
+.popup{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    position:absolute;
+    margin: 0 auto;
+    opacity: 0.4;
+
+}

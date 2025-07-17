@@ -1,0 +1,12 @@
+import { useContext, useState } from "react";
+const textContext = useContext()
+
+export const textProvider = ({children}) => {
+    const [text, setText] = useState("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+    const [newText, setNewText] = useState(text);
+    const [isEditing, setIsEditing] = useState(false);
+    <textContext.textProvider >
+{children}
+    </textContext.textProvider>
+
+}
