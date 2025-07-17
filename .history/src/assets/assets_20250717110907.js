@@ -6,5 +6,5 @@ import group from'./group.png'
 import calender from './calender.png'
 import image from './Image.png'
 export const assets={
-    logo,arrow,gym,spa,group,calender,image
+    logo,arrow,gym,spa,group,calender,image,
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Team.css'
-import {assets} from '../assets/assets'
 export default function Team() {
     const persons = [
         { name: "Laurent Wayne", role: "Hotel Manager" },
@@ -24,13 +23,7 @@ export default function Team() {
                     persons.map((item, index) => {
                         return (
                             <div className='card'>
-                                <div className="image">
-                                    <img src={assets.image} alt="" />
-                                </div>
-                                <div className="content">
-                                    <p>{item.name}</p>
-                                </div>
-
+                              <p>{item.name}</p>
                             </div>
                         )
                     })

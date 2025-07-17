@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Team.css'
-import {assets} from '../assets/assets'
+import assets from '../assets/assets'
 export default function Team() {
     const persons = [
         { name: "Laurent Wayne", role: "Hotel Manager" },

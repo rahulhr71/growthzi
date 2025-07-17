@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Team.css'
-import {assets} from '../assets/assets'
+import assets from '../assets/assets'
 export default function Team() {
     const persons = [
         { name: "Laurent Wayne", role: "Hotel Manager" },
@@ -25,7 +25,7 @@ export default function Team() {
                         return (
                             <div className='card'>
                                 <div className="image">
-                                    <img src={assets.image} alt="" />
+<img src={} alt="" />
                                 </div>
                                 <div className="content">
                                     <p>{item.name}</p>

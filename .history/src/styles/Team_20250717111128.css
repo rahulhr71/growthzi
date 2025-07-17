@@ -9,9 +9,8 @@
     justify-content: space-between  ;
 
 }
-.image{
-    width: 100%;
-    height: 80%;
+image{
+    width: 200px;
     overflow: hidden;
  
 }
