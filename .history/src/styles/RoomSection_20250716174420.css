@@ -1,0 +1,51 @@
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 grid units for flexibility */
+  grid-template-rows: auto auto;
+  gap: 30px;
+}
+
+/* TOP ROW (2 larger cards) */
+.room-card:nth-child(1) {
+  grid-column: span 3; /* half of 6 columns */
+}
+.room-card:nth-child(2) {
+  grid-column: span 3;
+}
+
+/* BOTTOM ROW (3 smaller cards) */
+.room-card:nth-child(3),
+.room-card:nth-child(4),
+.room-card:nth-child(5) {
+  grid-column: span 2; /* 2 * 3 = 6 columns => fits in 1 row */
+}
+
+/* Adjust width constraints */
+.room-card {
+  width: 100%;
+  background: linear-gradient(to bottom, #555, #222);
+  height: 220px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+    @media screen and (max-width: 768px) {
+  .room-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .room-card {
+    grid-column: span 2 !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+  .room-card {
+    grid-column: span 1 !important;
+  }
+}

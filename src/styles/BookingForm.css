@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.booking-container {
+  display: flex;
+  justify-content: space-between        ;
+  background-color: #2a2a2a;
+  padding: 20px 30px;
+  gap: 30px;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  width: 70vw;
+  margin: auto;
+    
+}
+
+.field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.input-box {
+  background-color: #3b3b3b;
+  display: flex;
+  justify-items: center;
+  
+  align-items: center;
+  padding: 8px 12px;
+  color: #c89b63;
+  border-radius: 2px;
+}
+
+.input-box input,
+.input-box select {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c89b63;
+  font-size: 14px;
+  width: 120px;
+}
+
+.input-box .icon {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.check-button {
+  color: #c89b63;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.check-button:hover {
+  opacity: 0.8;
+}
+.forum{
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}

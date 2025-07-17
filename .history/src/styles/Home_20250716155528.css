@@ -1,0 +1,21 @@
+
+.body {
+    background-color: beige;
+}
+
+.main-title {
+    color: brown;
+}
+
+.my-section {
+    background-image: url('../assets/Image.png') ;
+    width: 100vw;
+    height: 900px;
+
+}
+.navbar{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background-color: brown;
+}

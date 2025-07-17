@@ -1,0 +1,11 @@
+.body {
+    background-color: beige;
+}
+
+.main-title {
+    color: brown;
+}
+
+.my-section {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}

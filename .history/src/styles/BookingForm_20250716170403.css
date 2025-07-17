@@ -1,0 +1,57 @@
+.booking-container {
+  display: flex;
+  background-color: #2a2a2a;
+  padding: 20px 30px;
+  gap: 30px;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  width: 70vw;
+  margin: auto;
+  position: a;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.input-box {
+  background-color: #3b3b3b;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  color: #c89b63;
+  border-radius: 2px;
+}
+
+.input-box input,
+.input-box select {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c89b63;
+  font-size: 14px;
+  width: 120px;
+}
+
+.input-box .icon {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.check-button {
+  color: #c89b63;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.check-button:hover {
+  opacity: 0.8;
+}

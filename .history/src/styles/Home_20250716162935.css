@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.body {
+    background-color: beige;
+}
+
+.main-title {
+   text-align: center;
+   text-transform: uppercase;
+   color: #BF9766;
+   font-size: 24px;
+}
+
+.my-section {
+    background-image: url('../assets/Image.png');
+    width: 100vw;
+    height: 900px;
+   
+}
+
+.navbar {
+    display: flex;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    }
+
+.navbar>ul {
+    display: flex;
+    list-style-type: none;
+
+
+    width: 40vw;
+    justify-content: space-between;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.forum-regular {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navlinks{
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.header-text{
+    text-align: center;
+    font-size: 112px;
+
+}
