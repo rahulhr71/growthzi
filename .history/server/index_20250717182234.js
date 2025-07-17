@@ -25,7 +25,7 @@ app.post('/content',async(req,res)=>{
     res.status(200).json({sucess:true})
 })
 
-app.listen(process.env.PORT,()=>console.log("server started at 3000 port "))
+app.listen(3000,()=>console.log("server started at 3000 port "))
 mongoose.connect(process.env.MONGO).then((r)=>{
     console.log('mongoose connected successfully')
 }).catch((e)=>{
