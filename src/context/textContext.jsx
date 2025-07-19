@@ -8,7 +8,7 @@ export const TextProvider = ({ children }) => {
     useEffect(() => {
         const fetchText = async () => {
             try {
-                const res = await axios.get("http://localhost:3000/content");
+                const res = await axios.get(" https://growthzi.onrender.com/content");
                  setNewText(res.data.result[0].name);
                  setText(res.data.result[0].name)
                  
