@@ -1,5 +1,5 @@
 import '../styles/Home.css';
-import background from '../assets/image.png'
+import background from '../assets/Image.png'
 import { assets } from '../assets/assets';
 import Navbar from '../components/Navbar';
 import BookingForm from '../components/BookingForm';
