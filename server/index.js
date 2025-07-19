@@ -33,11 +33,9 @@ app.post('/content',async(req,res)=>{
     newCont.save();
     res.status(200).json({sucess:true})
 })
-
-app.listen(3000,()=>console.log("server started at 3000 port "))
-mongoose.connect("mongodb+srv://rahulkainswal:1t99cEBnjoCsVeXr@cluster0.bxeffe9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then((r)=>{
+app.listen(process.env.PORT,()=>console.log("server started at 3000 port "))
+mongoose.connect(process.env.MONGO).then((r)=>{
     console.log('mongoose connected successfully')
 }).catch((e)=>{
     console.log(e);
-    
 })
