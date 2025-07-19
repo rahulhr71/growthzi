@@ -63,7 +63,7 @@ export default function ServicesSection() {
             "name": newText,
         }
         try {
-            const result = await axios.post("http://localhost:3000/content", data)
+            const result = await axios.post("https://growthzi.onrender.com", data)
             
             result.status ===200?(console.log("component update detected")): ""
             
