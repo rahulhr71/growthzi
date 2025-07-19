@@ -29,7 +29,7 @@ export default function Home() {
         const dt={
             "name":btnValue
         }
-        axios.post("http://localhost:3000/button",dt).then((r)=>{
+        axios.post("https://growthzi.onrender.com/button",dt).then((r)=>{
             console.log(r);
             
         }).catch((e)=>{console.log(e);
